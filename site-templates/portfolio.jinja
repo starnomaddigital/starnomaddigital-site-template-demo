@@ -1,0 +1,14 @@
+{% extends 'base.jinja' %}
+
+{% block head %}
+{% include 'pure-css-responsive-head.jinja' %}
+{% include 'google-fonts-lato.jinja' %}
+{% endblock %}
+
+{% block body %}
+{% include 'menu-horizontal-scrollable.jinja' %}
+{% include 'parallax-splash-gradient.jinja' %}
+{% set cards = portfolio_cards %}
+{% include 'title-image-cards-thirds.jinja' %}
+{% include 'copyright-footer.jinja' %}
+{% endblock %}

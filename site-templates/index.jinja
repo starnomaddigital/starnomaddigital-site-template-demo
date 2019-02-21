@@ -1,0 +1,18 @@
+{% extends 'base.jinja' %}
+
+{% block head %}
+{% include 'pure-css-responsive-head.jinja' %}
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+{% include 'menu-horizontal-scrollable.jinja' %}
+{% include 'parallax-splash-gradient.jinja' %}
+<h1>TITLE</h1>
+<p>SOME TEXT GOES HERE</p>
+{% include 'cards-thirds.jinja' %}
+<h1>TITLE</h1>
+<p>MORE TEXT GOES HERE</p>
+<p>AND MAYBE A LINK, OR A PHONE NUMBER</p>
+{% include 'copyright-footer.jinja' %}
+{% endblock %}
